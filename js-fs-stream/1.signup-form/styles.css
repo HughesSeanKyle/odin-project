@@ -28,11 +28,25 @@
 }
 
 .section-left {
-	background-color: red;
 	flex: 1.5;
 	background-image: url('https://images.unsplash.com/photo-1640231912426-0d5feab0b9f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+}
+
+.section-left__logo-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 15%;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: relative;
+	top: 144px;
+}
+
+.logo-container__logo-text {
+	color: var(--light-color);
 }
 
 .section-right {
