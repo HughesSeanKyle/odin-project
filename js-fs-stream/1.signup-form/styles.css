@@ -1,3 +1,4 @@
+/* _______________GLOBALS_________________ */
 /* !IMPORT FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
@@ -19,6 +20,16 @@
 	--accent-color: #f55556;
 	--section-background-color: #fef5f5;
 }
+
+a {
+	color: inherit;
+}
+
+h3 {
+	color: var(--light-color);
+}
+
+/* _______________Signup page_________________ */
 
 .form-container {
 	display: flex;
@@ -45,11 +56,56 @@
 	top: 144px;
 }
 
-.logo-container__logo-text {
+.section-left__photo-credit-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 5%;
+	align-items: center;
+	position: relative;
+	top: 495px;
 	color: var(--light-color);
 }
 
 .section-right {
 	background-color: var(--dark-color);
 	flex: 2.5;
+}
+
+.section-right__form-copy-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 15%;
+	align-items: center;
+	position: relative;
+	top: 126px;
+	padding: 0 20px;
+}
+
+.form-copy-container__form-copy {
+	margin-top: 18px;
+	color: var(--light-color);
+	padding: 0 18px;
+	text-align: justify;
+}
+
+.section-right__hr {
+	color: var(--light-color);
+	width: 90%;
+	height: 1.8px;
+	position: relative;
+	top: 144px;
+	margin-left: 5%;
+}
+
+/* Edit this code */
+.form-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.form-group {
+	width: 80%;
 }
